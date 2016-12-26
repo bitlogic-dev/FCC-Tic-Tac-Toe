@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
+    <meta charset='UTF-8'>
     <link href='css/style.css' rel='stylesheet' />
     <script src='https://code.jquery.com/jquery-3.1.1.min.js' integrity='sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=' crossorigin='anonymous'></script>
+    <script src='http://code.jquery.com/ui/1.12.1/jquery-ui.min.js' integrity='sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=' crossorigin='anonymous'></script>
     <script src='js/app.js'></script>
-    <title>Title of the document</title>
+    <title>Tic-Tac-Toe</title>
   </head>
 
   <body>
@@ -17,15 +18,15 @@
     	</div>
 
     	<div id='gameContainer' class='game-wrap'>
-    		<div class='box bottom-line right-line' onclick='mark(this)'></div>
-    		<div class='box bottom-line right-line' onclick='mark(this)'></div>
-    		<div class='box bottom-line' onclick='mark(this)'></div>
-    		<div class='box bottom-line right-line' onclick='mark(this)'></div>
-    		<div class='box bottom-line right-line' onclick='mark(this)'></div>
-    		<div class='box bottom-line' onclick='mark(this)'></div>
-    		<div class='box right-line' onclick='mark(this)'></div>
-    		<div class='box right-line' onclick='mark(this)'></div>
-    		<div class='box' onclick='mark(this)'></div>
+    		<div id='0' class='box bottom-line right-line'></div>
+    		<div id='1' class='box bottom-line right-line'></div>
+    		<div id='2' class='box bottom-line'></div>
+    		<div id='3' class='box bottom-line right-line'></div>
+    		<div id='4' class='box bottom-line right-line'></div>
+    		<div id='5' class='box bottom-line'></div>
+    		<div id='6' class='box right-line'></div>
+    		<div id='7' class='box right-line'></div>
+    		<div id='8' class='box'></div>
     	</div>
     </div>
   </body>
