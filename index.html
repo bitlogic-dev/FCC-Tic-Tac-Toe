@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href='css/style.css' rel='stylesheet' />
+    <script src='https://code.jquery.com/jquery-3.1.1.min.js' integrity='sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=' crossorigin='anonymous'></script>
+    <script src='js/app.js'></script>
+    <title>Title of the document</title>
+  </head>
+
+  <body>
+    <div id='main'>
+    	<div class='centered'>
+    		<div id='dialog'>Select X or O to begin playing</div>
+    		<button id='play' class='centered'>Play</button>
+    		<button id='restart' class='centered'>Restart</button>
+    	</div>
+
+    	<div id='gameContainer' class='game-wrap'>
+    		<div class='box bottom-line right-line' onclick='mark(this)'></div>
+    		<div class='box bottom-line right-line' onclick='mark(this)'></div>
+    		<div class='box bottom-line' onclick='mark(this)'></div>
+    		<div class='box bottom-line right-line' onclick='mark(this)'></div>
+    		<div class='box bottom-line right-line' onclick='mark(this)'></div>
+    		<div class='box bottom-line' onclick='mark(this)'></div>
+    		<div class='box right-line' onclick='mark(this)'></div>
+    		<div class='box right-line' onclick='mark(this)'></div>
+    		<div class='box' onclick='mark(this)'></div>
+    	</div>
+    </div>
+  </body>
+</html>
